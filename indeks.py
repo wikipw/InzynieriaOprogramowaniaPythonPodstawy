@@ -33,9 +33,6 @@ Wymagania:
 - Dla każdego zapytania, zwrócenie posortowanej listy indeksów dokumentów.
 """
 
-import re
-from collections import Counter
-
 
 def index_documents(documents: list[str], queries: list[str]) -> list[list[int]]:
     """
